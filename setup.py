@@ -11,4 +11,5 @@ setup(
     author_email='gladkovyegor@gmail.com',
     description='Package contains a set of encryption/decryption modules.',
     long_description=open(join(dirname(__file__), 'README.txt')).read(),
+    test_suite='tests'
 )
