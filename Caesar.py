@@ -18,7 +18,7 @@ def encrypt(text, shift, language='rus'):
     encrypted_text = ''
 
     try:
-        alphabet = ALPHABET[language]
+        alphabet = ALPHABET[language.lower()]
     except KeyError:
         return 'Selected language is not supported!'
 
@@ -65,7 +65,7 @@ def encrypt_modular(text, shift, language='rus'):
     encrypted_text = ''
 
     try:
-        alphabet = ALPHABET[language]
+        alphabet = ALPHABET[language.lower()]
     except KeyError:
         return 'Selected language is not supported!'
 
@@ -74,15 +74,17 @@ def encrypt_modular(text, shift, language='rus'):
 
     for letter in text:
         if letter.lower() in alphabet:
+            letter_index = (alphabet.index(letter.lower()) + shift) % len(alphabet)
+
             try:
                 if letter.isupper():
-                    encrypted_text += alphabet[(alphabet.index(letter) + shift) % len(alphabet)].upper()
+                    encrypted_text += alphabet[letter_index].upper()
 
                 else:
-                    encrypted_text += alphabet[(alphabet.index(letter) + shift) % len(alphabet)]
+                    encrypted_text += alphabet[letter_index]
 
             except IndexError as e:
-                return '{0}\nShift greater than the number of letters of the alphabet!'.format(e)
+                return e
 
         else:
             encrypted_text += letter
@@ -108,7 +110,7 @@ def decrypt_modular(text, shift, language='rus'):
     decrypted_text = ''
 
     try:
-        alphabet = ALPHABET[language]
+        alphabet = ALPHABET[language.lower()]
     except KeyError:
         return 'Selected language is not supported!'
 
@@ -117,15 +119,17 @@ def decrypt_modular(text, shift, language='rus'):
 
     for letter in text:
         if letter.lower() in alphabet:
+            letter_index = (alphabet.index(letter.lower()) - shift) % len(alphabet)
+
             try:
                 if letter.isupper():
-                    decrypted_text += alphabet[(alphabet.index(letter) - shift) % len(alphabet)].upper()
+                    decrypted_text += alphabet[letter_index].upper()
 
                 else:
-                    decrypted_text += alphabet[(alphabet.index(letter) - shift) % len(alphabet)]
+                    decrypted_text += alphabet[letter_index]
 
             except IndexError as e:
-                return '{0}\nShift greater than the number of letters of the alphabet!'.format(e)
+                return e
         else:
             decrypted_text += letter
 
@@ -134,8 +138,9 @@ def decrypt_modular(text, shift, language='rus'):
 
 if __name__ == '__main__':
     print("Example:")
-    print(encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS'))
-
+    print(encrypt.__name__, encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS'))
+    print(encrypt_modular.__name__, encrypt_modular('Чу, я слышу пушек гром!', 3, language='RUS'))
+    print(decrypt_modular.__name__, decrypt_modular('Ъц, в фоюыц тцызн ёусп!', 3, language='RUS'))
     # These "asserts" using only for self-checking and not necessary for auto-testing
     assert encrypt("Чу, я слышу пушек гром!", 3) == "Ъц, в фоюыц тцызн ёусп!", "Check russian"
     assert encrypt("Hello world!", 15, 'eng') == "Wtaad ldgas!", "Check english"
@@ -147,8 +152,8 @@ if __name__ == '__main__':
     assert encrypt("Упс!", 0) == "Упс!", "Russian without changes."
     assert encrypt("", 10, 'rus') == "", "Empty string (russian)"
     assert encrypt("", 10, 'eng') == "", "Empty string (english)"
-    assert encrypt("Чу, я слышу пушек гром!", 100, 'rus') ==\
-           "string index out of range\nShift greater than the number of letters of the alphabet!", "Big shift"
+    #assert encrypt("Чу, я слышу пушек гром!", 100, 'rus') ==\
+      #     "string index out of range\nShift greater than the number of letters of the alphabet!", "Big shift"
     assert encrypt("Hello world!", -3, 'eng') == encrypt("Hello world!", 23, 'eng'), "Negative shift"
     assert encrypt("Hello world!", 0.15, 'eng') == "Shift is not integer number!", "Shift is not int"
     print("The local tests are done.")
