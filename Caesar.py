@@ -49,6 +49,90 @@ def encrypt(text, shift, language='rus'):
     return encrypted_text
 
 
+def encrypt_by_modular(text, shift, language='rus'):
+    """Encryption message with Caesar cipher based on Modular arithmetic.
+
+    Input:
+        text: string,
+        shift: int
+        language: string (default 'rus')
+    Return:
+        Encrypted text: string
+
+    Encryption of a letter x by a shift n can be described mathematically as
+        En(x) = (x + shift) mod n,
+    were n is cardinality of alphabet, means number of letters total.
+    """
+    encrypted_text = ''
+
+    if language.lower() == 'rus':
+        alphabet = RUS_ALPHABET
+    elif language.lower() == 'eng':
+        alphabet = ENG_ALPHABET
+    else:
+        return text
+
+    if shift > len(alphabet):
+        return 'Shift greater than the number of letters of the alphabet!'
+
+    if type(shift) is not int:
+        return 'Shift is not integer number!'
+
+    for letter in text:
+        if letter.lower() in alphabet:
+            if letter.isupper():
+                encrypted_text += alphabet[(alphabet.index(letter) + shift) % len(alphabet)].upper()
+
+            else:
+                encrypted_text += alphabet[(alphabet.index(letter) + shift) % len(alphabet)]
+        else:
+            encrypted_text += letter
+
+    return encrypted_text
+
+
+def decrypt_by_modular(text, shift, language='rus'):
+    """Decryption message with Caesar cipher based on Modular arithmetic.
+
+    Input:
+        text: string,
+        shift: int
+        language: string (default 'rus')
+    Return:
+        Decrypted text: string
+
+    Encryption of a letter x by a shift can be described mathematically as
+        Dn(x) = (x - shift) mod n,
+    were n is cardinality of alphabet, means number of letters total.
+    """
+    decrypted_text = ''
+
+    if language.lower() == 'rus':
+        alphabet = RUS_ALPHABET
+    elif language.lower() == 'eng':
+        alphabet = ENG_ALPHABET
+    else:
+        return text
+
+    if shift > len(alphabet):
+        return 'Shift greater than the number of letters of the alphabet!'
+
+    if type(shift) is not int:
+        return 'Shift is not integer number!'
+
+    for letter in text:
+        if letter.lower() in alphabet:
+            if letter.isupper():
+                decrypted_text += alphabet[(alphabet.index(letter) - shift) % len(alphabet)].upper()
+
+            else:
+                decrypted_text += alphabet[(alphabet.index(letter) - shift) % len(alphabet)]
+        else:
+            decrypted_text += letter
+
+    return decrypted_text
+
+
 if __name__ == '__main__':
     print("Example:")
     print(encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS'))
