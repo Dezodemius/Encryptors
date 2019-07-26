@@ -10,6 +10,6 @@ setup(
     author='Yehor Hladkov',
     author_email='gladkovyegor@gmail.com',
     description='Package contains a set of encryption/decryption modules.',
-    long_description=open(join(dirname(__file__), 'README.txt')).read(),
+    long_description=open(join(dirname(__file__), 'README.md')).read(),
     test_suite='tests'
 )
