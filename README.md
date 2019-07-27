@@ -1,3 +1,25 @@
+# <p align="center">Encryptors
+
+## Getting started.
+
+This API is not tested with Python 2.6, Python 2.7, Python 3.4, Pypy and Pypy 3, but don't worry.
+There are two ways to install the library:
+
+* Installation using pip (a Python package manager)*:
+
+```
+$ pip install -i https://test.pypi.org/simple/ Encryptors
+```
+* Installation from source (requires git):
+
+```
+$ git clone https://github.com/Dezodemius/Encryptors
+$ cd Encryptors
+$ python setup.py install
+```
+
+It is generally recommended to use the first option.
+
 What is this?
 -
 This is a package for Python3 containing encryption methods. May be used for encryption of your messages just for fun
@@ -24,10 +46,6 @@ This module contains two realizations of Caesar encryption method:
 * using string transformation: `encrypt(...)`
 
 * using modular arithmetic: `encrypt_modular(...)` for encrypt message, and `decrypt_modular(...)` for decrypt.
-
-Installation
--
-For installation use `setup.py`.
 
 Import example
 -
