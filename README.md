@@ -1,7 +1,7 @@
 What is this?
 -
 This is a package for Python3 containing encryption methods. May be used for encryption of your messages just for fun
-or for learning encryption method. 
+or for learning encryption method.
 
 The Latest Version
 -
@@ -13,15 +13,15 @@ Each character in the text is replaced by a symbol located on some fixed number 
 left or to the right of it in the alphabet.
 
 Encryption of a letter x by a shift can be described mathematically as
-        
+
     Dn(x) = (x - shift) mod n
-        
+
 were n is cardinality of alphabet, means number of letters total.
 
 
 This module contains two realizations of Caesar encryption method:
 
-* using string transformation: `encrypt(...)` 
+* using string transformation: `encrypt(...)`
 
 * using modular arithmetic: `encrypt_modular(...)` for encrypt message, and `decrypt_modular(...)` for decrypt.
 
@@ -43,7 +43,7 @@ Examples
 -
 
 ```buildoutcfg
->>> cs.encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS') 
+>>> cs.encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS')
 
 'Фэзыя йз зьи ахлш пвёнлш чугрщцкфнлш дцосн, жг еютзм ъгб.'
 ```

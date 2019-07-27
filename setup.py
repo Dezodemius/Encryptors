@@ -1,15 +1,29 @@
 from setuptools import setup, find_packages
 from os.path import join, dirname
+import Encryptors
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setup(
     name='Encryptors',
-    version='1.1',
+    version=Encryptors.__version__,
     packages=find_packages(),
-    url='',
+    url='https://github.com/Dezodemius/Encryptors',
     license='GNU General Public License v3.0',
     author='Yehor Hladkov',
     author_email='gladkovyegor@gmail.com',
-    description='Package contains a set of encryption/decryption modules.',
+    description='Encryption/decryption modules.',
     long_description=open(join(dirname(__file__), 'README.md')).read(),
-    test_suite='tests'
+    long_description_content_type='text/markdown',
+    test_suite='tests',
+    classifiers=[
+            "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+            "Operating System :: OS Independent",
+            "Natural Language :: English",
+            "Natural Language :: Russian",
+            "Intended Audience :: Education",
+            "Topic :: Software Development :: Libraries :: Python Modules",
+        ]
 )
