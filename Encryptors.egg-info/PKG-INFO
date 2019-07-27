@@ -1,15 +1,15 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: Encryptors
-Version: 1.1
-Summary: Package contains a set of encryption/decryption modules.
-Home-page: UNKNOWN
+Version: 1.0
+Summary: Encryption/decryption modules.
+Home-page: https://github.com/Dezodemius/Encryptors
 Author: Yehor Hladkov
 Author-email: gladkovyegor@gmail.com
 License: GNU General Public License v3.0
 Description: What is this?
         -
         This is a package for Python3 containing encryption methods. May be used for encryption of your messages just for fun
-        or for learning encryption method. 
+        or for learning encryption method.
         
         The Latest Version
         -
@@ -21,16 +21,57 @@ Description: What is this?
         left or to the right of it in the alphabet.
         
         Encryption of a letter x by a shift can be described mathematically as
-                
+        
             Dn(x) = (x - shift) mod n
-                
+        
         were n is cardinality of alphabet, means number of letters total.
         
         
         This module contains two realizations of Caesar encryption method:
         
-        * using string transformation: `encrypt(...)` 
+        * using string transformation: `encrypt(...)`
         
         * using modular arithmetic: `encrypt_modular(...)` for encrypt message, and `decrypt_modular(...)` for decrypt.
         
+        Installation
+        -
+        For installation use `setup.py`.
+        
+        Import example
+        -
+        * `import Encryptors`
+        
+        * `from Encryptors import *`
+        
+        * `from Encryptors import Caesar`
+        
+        * `from Encryptors.Caesar import Caesar as cs` - for Caesar encryption import.
+        
+        Examples
+        -
+        
+        ```buildoutcfg
+        >>> cs.encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS')
+        
+        'Фэзыя йз зьи ахлш пвёнлш чугрщцкфнлш дцосн, жг еютзм ъгб.'
+        ```
+        
+        ```buildoutcfg
+        >>> cs.encrypt_modular("Чу, я слышу пушек гром!", 3)
+        'Ъц, в фоюыц тцызн ёусп!'
+        ```
+        
+        ```buildoutcfg
+        >>> cs.decrypt_modular("Ъц, в фоюыц тцызн ёусп!", 3)
+        'Чу, я слышу пушек гром!'
+        ```
+        
 Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
