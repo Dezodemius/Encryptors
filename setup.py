@@ -1,6 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 from os.path import join, dirname
-import Encryptors
+import Encryptors.Caesar
 
 with open("README.md", "r") as fh:
     long_description = fh.read()

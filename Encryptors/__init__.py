@@ -1,2 +1,2 @@
-__all__ = ['Caesar']
-__version__ = '1.0'
+__all__ = ['Caesar', 'Vigenere']
+__version__ = '1.1'

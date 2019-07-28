@@ -1,12 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 class Caesar:
     """Caesar cipher class.
 
     Contains methods for encrypting or decrypting strings using Caesar encryption method.
     """
-    ALPHABET = {
-        'rus': 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя',
-        'eng': 'abcdefghijklmnopqrstuvwxyz'
-    }
+    from Encryptors.constant import ALPHABET
 
     @staticmethod
     def encrypt(text, shift, language='rus'):
@@ -141,22 +142,4 @@ class Caesar:
 
 
 if __name__ == '__main__':
-    c = Caesar()
-    print("Example:")
-    print(c.encrypt.__name__, c.encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS'))
-    print(c.encrypt_modular.__name__, c.encrypt_modular('Чу, я слышу пушек гром!', 3, language='RUS'))
-    print(c.decrypt_modular.__name__, c.decrypt_modular('Ъц, в фоюыц тцызн ёусп!', 3, language='RUS'))
-    # These "asserts" using only for self-checking and not necessary for auto-testing
-    assert c.encrypt("Чу, я слышу пушек гром!", 3) == "Ъц, в фоюыц тцызн ёусп!", "Check russian"
-    assert c.encrypt(text="Hello world!", shift=15, language='eng') == "Wtaad ldgas!", "Check english"
-    assert c.encrypt("Hello world!", 15, 'rus') == "Hello world!", "Check wrong language (english)"
-    assert c.encrypt("Чу, я слышу пушек гром!", 15, 'eng') == "Чу, я слышу пушек гром!", \
-        "Check wrong language (russian)"
-    assert c.encrypt("Ви говорите англійською?", 1, 'ukr') == "Selected language is not supported!", "Check ukrainian"
-    assert c.encrypt("Oops!", 0) == "Oops!", "English without changes"
-    assert c.encrypt("Упс!", 0) == "Упс!", "Russian without changes."
-    assert c.encrypt("", 10, 'rus') == "", "Empty string (russian)"
-    assert c.encrypt("", 10, 'eng') == "", "Empty string (english)"
-    assert c.encrypt("Hello world!", -3, 'eng') == c.encrypt("Hello world!", 23, 'eng'), "Negative shift"
-    assert c.encrypt("Hello world!", 0.15, 'eng') == "Shift is not integer number!", "Shift is not int"
-    print("The local tests are done.")
+    print("Not executable!")
