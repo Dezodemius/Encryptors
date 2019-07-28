@@ -20,6 +20,8 @@ $ python setup.py install
 
 It is generally recommended to use the first option.
 
+**While the API is production-ready, it is still under development and it has regular updates, do not forget to update it regularly by calling `pip install Encryptors --upgrade`*
+
 What is this?
 -
 This is a package for Python3 containing encryption methods. May be used for encryption of your messages just for fun
