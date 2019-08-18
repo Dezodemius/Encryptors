@@ -2,6 +2,7 @@
   <dictionary name="dez">
     <words>
       <w>abcdefghijklmnopqrstuvwxyz</w>
+      <w>encryptor</w>
       <w>encryptors</w>
       <w>hladkov</w>
       <w>vigenere</w>
