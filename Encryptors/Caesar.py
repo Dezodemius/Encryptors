@@ -1,13 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Caesar Encryptor.
+from Encryptors.constant import ALPHABET
 
 
 class Caesar:
     """Caesar cipher class.
 
-    Contains methods for encrypting or decrypting strings using Caesar encryption method.
+    Contains methods for encrypting and decrypting strings using Caesar encryption method.
     """
-    from Encryptors.constant import ALPHABET
 
     @staticmethod
     def encrypt(text, shift, language='rus'):
@@ -23,7 +24,7 @@ class Caesar:
         encrypted_text = ''
 
         try:
-            alphabet = Caesar.ALPHABET[language.lower()]
+            alphabet = ALPHABET[language.lower()]
         except KeyError:
             return 'Selected language is not supported!'
 
@@ -70,7 +71,7 @@ class Caesar:
         encrypted_text = ''
 
         try:
-            alphabet = Caesar.ALPHABET[language.lower()]
+            alphabet = ALPHABET[language.lower()]
         except KeyError:
             return 'Selected language is not supported!'
 
@@ -115,7 +116,7 @@ class Caesar:
         decrypted_text = ''
 
         try:
-            alphabet = Caesar.ALPHABET[language.lower()]
+            alphabet = ALPHABET[language.lower()]
         except KeyError:
             return 'Selected language is not supported!'
 
