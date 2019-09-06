@@ -65,3 +65,4 @@ class CaesarTestCase(TestCase):
         self.assertEqual(self.c.decrypt_modular("Hello world!", -3, 'eng'), self.c.decrypt_modular("Hello world!", 23, 'eng'))
         self.assertEqual(self.c.decrypt_modular("Hello world!", 0.15, 'eng'), "Shift is not integer number!")
 
+

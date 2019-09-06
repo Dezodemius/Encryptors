@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1f9fd3c6-026b-448c-8836-fe420a45ab3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Encryptors/Vigenere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encryptors/Vigenere.py" afterDir="false" />
+=======
+    <list default="true" id="74a10d82-f5af-415e-a9f8-94a01e8a6f70" name="Default Changelist" comment="Add">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/dez.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/dez.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encryptors.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/Encryptors.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encryptors.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Encryptors.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encryptors/Caesar.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encryptors/Caesar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encryptors/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encryptors/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +27,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Encryptors/constant.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="315">
               <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+=======
+            <state relative-caret-position="189">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
             </state>
           </provider>
         </entry>
@@ -34,15 +51,25 @@
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
+<<<<<<< HEAD
               <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="e#46#75#0" expanded="true" />
                 <element signature="e#165#4126#0" />
+=======
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+              <folding>
+                <element signature="e#46#75#0" expanded="true" />
+                <element signature="e#275#1364#0" />
+                <element signature="e#1410#2582#0" />
+                <element signature="e#2628#3800#0" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Encryptors/testing_decorators.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,6 +86,15 @@
               <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="e#127#167#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Encryptors/testing_decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="e#82#111#0" expanded="true" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
               </folding>
             </state>
           </provider>
@@ -76,8 +112,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Encryptors/Caesar.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="54">
               <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+=======
+            <state relative-caret-position="348">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
+              <folding>
+                <element signature="e#307#1750#0" />
+                <element signature="e#1832#3130#0" />
+                <element signature="e#3212#4507#0" />
+              </folding>
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
             </state>
           </provider>
         </entry>
@@ -87,6 +133,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+<<<<<<< HEAD
             </state>
           </provider>
         </entry>
@@ -99,6 +146,8 @@
               <folding>
                 <element signature="e#66#84#0" expanded="true" />
               </folding>
+=======
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
             </state>
           </provider>
         </entry>
@@ -117,11 +166,10 @@
     <findStrings>
       <find>==</find>
       <find>encrypt_modular</find>
+      <find>c</find>
       <find>Caesar</find>
       <find>encrypt</find>
       <find>decrypt</find>
-      <find>c</find>
-      <find>self.c</find>
     </findStrings>
     <replaceStrings>
       <replace>self.assertEqual(</replace>
@@ -133,7 +181,6 @@
       <replace>self.c.</replace>
       <replace>self.c.encrypt</replace>
       <replace>self.c.decrypt</replace>
-      <replace>self.v</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -151,8 +198,10 @@
         <option value="$PROJECT_DIR$/Caesar.py" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Encryptors/Vigenere.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Encryptors/decorators.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Encryptors/testing_decorators.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Encryptors/__init__.py" />
@@ -162,6 +211,11 @@
         <option value="$PROJECT_DIR$/Encryptors/Caesar.py" />
         <option value="$PROJECT_DIR$/Encryptors/Polybius.py" />
         <option value="$PROJECT_DIR$/Encryptors/Vigenere.py" />
+=======
+        <option value="$PROJECT_DIR$/Encryptors/Caesar.py" />
+        <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/Encryptors/testing_decorators.py" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
       </list>
     </option>
   </component>
@@ -215,8 +269,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.Polybius">
     <configuration name="Cardan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python tests.Unittests for tests.CaesarTestCase.test_encrypt_modular">
+    <configuration name="Caesar (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
       <module name="Encryptors" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,27 +317,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Vigenere" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Encryptors" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Encryptors" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Encryptors/Vigenere.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for tests.CaesarTestCase.test_encrypt_modular" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Encryptors" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,26 +331,15 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Encryptors" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.Polybius" />
         <item itemvalue="Python.Cardan" />
         <item itemvalue="Python.Vigenere" />
         <item itemvalue="Python tests.Unittests in tests.py" />
+=======
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
         <item itemvalue="Python tests.Unittests for tests.CaesarTestCase.test_encrypt_modular" />
       </list>
     </recent_temporary>
@@ -343,9 +370,6 @@
     <history-entry file="Unittests_for_tests_CaesarTestCase_test_encrypt_modular - 2019.07.28 at 20h 19m 19s.xml">
       <configuration name="Unittests for tests.CaesarTestCase.test_encrypt_modular" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_tests_py - 2019.08.18 at 15h 48m 59s.xml">
-      <configuration name="Unittests in tests.py" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
@@ -356,15 +380,26 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49367088" visible="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49590468" weight="0.50774527" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32874355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33734939" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32874355" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.47332186" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5063291" side_tool="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49590468" weight="0.46815833" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.47332186" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32874355" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,10 +414,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt" />
     <entry file="file://$PROJECT_DIR$/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Caesar.py" />
     <entry file="file://$PROJECT_DIR$/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/Encryptors/Vigenere.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -435,7 +484,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Encryptors/Cardan" />
+    <entry file="file://$PROJECT_DIR$/setup.py">
+=======
+    <entry file="file://$PROJECT_DIR$/Encryptors/constant.py">
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -443,15 +503,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Encryptors/testing_decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
@@ -484,6 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Encryptors/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
         <state relative-caret-position="42">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
@@ -492,23 +548,43 @@
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
+<<<<<<< HEAD
           <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#46#75#0" expanded="true" />
             <element signature="e#165#4126#0" />
+=======
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="e#46#75#0" expanded="true" />
+            <element signature="e#275#1364#0" />
+            <element signature="e#1410#2582#0" />
+            <element signature="e#2628#3800#0" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Encryptors/constant.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="315">
           <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+=======
+        <state relative-caret-position="348">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="e#307#1750#0" />
+            <element signature="e#1832#3130#0" />
+            <element signature="e#3212#4507#0" />
+          </folding>
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Encryptors/Vigenere.py">
+    <entry file="file://$PROJECT_DIR$/Encryptors/testing_decorators.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-1038">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
@@ -537,6 +613,12 @@
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="e#66#84#0" expanded="true" />
+=======
+        <state relative-caret-position="123">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#82#111#0" expanded="true" />
+>>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
           </folding>
         </state>
       </provider>
