@@ -13,14 +13,12 @@ class Vigenere:
 
     @staticmethod
     def encrypt(text, key, language='rus'):
-        """Vigenere cipher.
+        """Encryption message with Vigenere cipher.
 
-        Input:
-            text: string,
-            key: string
-            language: string (default 'rus')
-        Return: Each character in the text is replaced by a symbol located on some fixed number of positions to the
-        left or to the right of it in the alphabet.
+        :param text: string,
+        :param key: string
+        :param language: string (default 'rus')
+        :return encrypted_text: string
         """
         encrypted_text = ''
 
@@ -28,12 +26,6 @@ class Vigenere:
             alphabet = ALPHABET[language.lower()]
         except KeyError:
             return 'Selected language is not supported!'
-
-        # if key > len(alphabet):
-        #    return 'Shift greater than the number of letters of the alphabet!'
-
-        # if type(key) is not int:
-        #    return 'Shift is not integer number!'
 
         for i in range(len(text)):
             if text[i].lower() in alphabet:
@@ -45,14 +37,12 @@ class Vigenere:
 
     @staticmethod
     def decrypt(text, key, language='rus'):
-        """Vigenere cipher.
+        """Decryption message with Vigenere cipher.
 
-        Input:
-            text: string,
-            key: string
-            language: string (default 'rus')
-        Return: Each character in the text is replaced by a symbol located on some fixed number of positions to the
-        left or to the right of it in the alphabet.
+        :param text: string,
+        :param key: string
+        :param language: string (default 'rus')
+        :return decrypted_text: string
         """
         encrypted_text = ''
 
