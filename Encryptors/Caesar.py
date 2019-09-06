@@ -101,12 +101,10 @@ class Caesar:
     def decrypt_modular(text, shift, language='rus'):
         """Decryption message with Caesar cipher based on Modular arithmetic.
 
-        Input:
-            text: string,
-            shift: int
-            language: string (default 'rus')
-        Return:
-            Decrypted text: string
+        :param text: string,
+        :param shift: int
+        :param language: string (default 'rus')
+        :return: decrypted text: string
 
         Encryption of a letter x by a shift can be described mathematically as
             Dn(x) = (x - shift) mod n,

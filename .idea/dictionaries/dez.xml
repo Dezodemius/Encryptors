@@ -2,9 +2,12 @@
   <dictionary name="dez">
     <words>
       <w>abcdefghijklmnopqrstuvwxyz</w>
+      <w>cardan</w>
+      <w>ciphertext</w>
       <w>encryptor</w>
       <w>encryptors</w>
       <w>hladkov</w>
+      <w>polybius</w>
       <w>vigenere</w>
       <w>yehor</w>
     </words>

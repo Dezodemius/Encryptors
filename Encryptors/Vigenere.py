@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Vigenere Encryptor.
 from Encryptors.constant import ALPHABET
@@ -78,4 +78,8 @@ if __name__ == "__main__":
     v = Vigenere()
     print("Example")
     print("Original text: {0}, key: {1}, encrypted: {2}".format("ATTACKATDAWN", "LEMON", v.encrypt("ATTACKATDAWN", "LEMON", "ENG")))
+    print("Original text: {0}, key: {1}, encrypted: {2}".format("завтра пар не будет", "буря",
+                                                                v.encrypt("завтра пар не будет", "буря", "RUS")))
+    print("Original text: {0}, key: {1}, encrypted: {2}".format("иутссу обд мё стешг", "буря",
+                                                                v.decrypt("иутссу обд мё стешг", "буря", "RUS")))
     print("Original text: {0}, key: {1}, encrypted: {2}".format("LXFOPVEFRNHR", "LEMON", v.decrypt("LXFOPVEFRNHR", "LEMON", "ENG")))
