@@ -1,4 +1,6 @@
 # <p align="center">Encryptors
+* [Getting started.](#getting-started)
+* []
 
 ## Getting started.
 
@@ -31,7 +33,7 @@ The Latest Version
 -
 Details of the latest version of package you can find by
 
-Caesar encryption method
+## Caesar cipher.
 -
 Each character in the text is replaced by a symbol located on some fixed number of positions to the
 left or to the right of it in the alphabet.

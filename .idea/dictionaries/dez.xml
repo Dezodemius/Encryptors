@@ -1,18 +1,7 @@
 <component name="ProjectDictionaryState">
   <dictionary name="dez">
     <words>
-      <w>abcdefghijklmnopqrstuvwxyz</w>
-<<<<<<< HEAD
       <w>cardan</w>
-      <w>ciphertext</w>
-      <w>encryptor</w>
-=======
->>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
-      <w>encryptors</w>
-      <w>hladkov</w>
-      <w>polybius</w>
-      <w>vigenere</w>
-      <w>yehor</w>
     </words>
   </dictionary>
 </component>
