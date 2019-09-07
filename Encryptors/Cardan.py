@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Caesar Encryptor.
+# Cardan grille.
 import numpy as np
 import math as m
 

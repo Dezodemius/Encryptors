@@ -1,6 +1,9 @@
 # <p align="center">Encryptors
 * [Getting started.](#getting-started)
-* []
+* [Caesar cipher.](#caesar-cipher)
+* [Vigenere cipher.](#vigenere-cipher)
+* [Polybius square cipher.](#polybius-square-cipher)
+* [Cardano grille.](#cardano-grille)
 
 ## Getting started.
 
@@ -34,7 +37,7 @@ The Latest Version
 Details of the latest version of package you can find by
 
 ## Caesar cipher.
--
+
 Each character in the text is replaced by a symbol located on some fixed number of positions to the
 left or to the right of it in the alphabet.
 
@@ -61,8 +64,7 @@ Import example
 
 * `from Encryptors.Caesar import Caesar as cs` - for Caesar encryption import.
 
-Examples
--
+Examples:
 
 ```buildoutcfg
 >>> cs.encrypt('Съешь же ещё этих мягких французских булок, да выпей чаю.', 3, language='RUS')
@@ -79,3 +81,45 @@ Examples
 >>> cs.decrypt_modular("Ъц, в фоюыц тцызн ёусп!", 3)
 'Чу, я слышу пушек гром!'
 ```
+
+##Vigenere cipher.
+In the Vigenere cipher, each character of the phrase that needs to be encrypted, as in Caesar's cipher, is shifted by a certain number of characters in the alphabet with the only difference that this number is inconsistent and depends on the key phrase
+
+This module is based on Caesar's encryptor.
+
+Import example
+-
+* `import Encryptors`
+
+* `from Encryptors import *`
+
+* `from Encryptors import Vigenere`
+
+* `from Encryptors.Vigenere import Vigenere as vgn` - for Vigenere encryption import.
+
+Examples:
+
+```buildoutcfg
+>>> vgn.encrypt("ATTACKATDAWN", "LEMON", "ENG")
+
+'LXFOPVEFRNHR'
+```
+```buildoutcfg
+>>> vgn.decrypt("LXFOPVEFRNHR", "LEMON", "ENG")
+
+'ATTACKATDAWN'
+```
+
+```buildoutcfg
+>>> vgn.encrypt("завтра пар не будет", "буря", "RUS")
+'иутссу обд мё стешг'
+```
+
+```buildoutcfg
+>>> vgn.encrypt("иутссу обд мё стешг", "буря", "RUS")
+'завтра пар не будет'
+```
+
+##Polybius square.
+
+##Cardan grille.

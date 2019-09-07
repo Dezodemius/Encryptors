@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Vigenere Encryptor.
@@ -66,15 +65,14 @@ class Vigenere:
 
 
 if __name__ == "__main__":
-    v = Vigenere()
+    vgn = Vigenere()
     print("Example")
-    print("Original text: {0}, key: {1}, encrypted: {2}".format("ATTACKATDAWN", "LEMON", v.encrypt("ATTACKATDAWN", "LEMON", "ENG")))
+    print("Original text: {0}, key: {1}, encrypted: {2}".format("ATTACKATDAWN", "LEMON",
+                                                                vgn.encrypt("ATTACKATDAWN", "LEMON", "ENG")))
+    print("Original text: {0}, key: {1}, encrypted: {2}".format("LXFOPVEFRNHR", "LEMON",
+                                                                vgn.decrypt("LXFOPVEFRNHR", "LEMON", "ENG")))
     print("Original text: {0}, key: {1}, encrypted: {2}".format("завтра пар не будет", "буря",
-                                                                v.encrypt("завтра пар не будет", "буря", "RUS")))
+                                                                vgn.encrypt("завтра пар не будет", "буря", "RUS")))
     print("Original text: {0}, key: {1}, encrypted: {2}".format("иутссу обд мё стешг", "буря",
-                                                                v.decrypt("иутссу обд мё стешг", "буря", "RUS")))
-    print("Original text: {0}, key: {1}, encrypted: {2}".format("LXFOPVEFRNHR", "LEMON", v.decrypt("LXFOPVEFRNHR", "LEMON", "ENG")))
-=======
-#! /usr/bin/env python
-# -*- coding: utf-8 -*-
->>>>>>> parent of 6ba0ad9... Added Vigenere cypher.
+                                                                vgn.decrypt("иутссу обд мё стешг", "буря", "RUS")))
+
