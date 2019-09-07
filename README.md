@@ -120,6 +120,6 @@ Examples:
 'завтра пар не будет'
 ```
 
-##Polybius square.
+## Polybius square cipher.
 
-##Cardan grille.
+## Cardan grille.
