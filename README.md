@@ -3,7 +3,7 @@
 * [Caesar cipher.](#caesar-cipher)
 * [Vigenere cipher.](#vigenere-cipher)
 * [Polybius square cipher.](#polybius-square-cipher)
-* [Cardano grille.](#cardano-grille)
+* [Cardan grille.](#cardan-grille)
 
 ## Getting started.
 
