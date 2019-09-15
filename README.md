@@ -82,7 +82,7 @@ Examples:
 'Чу, я слышу пушек гром!'
 ```
 
-##Vigenere cipher.
+## Vigenere cipher.
 In the Vigenere cipher, each character of the phrase that needs to be encrypted, as in Caesar's cipher, is shifted by a certain number of characters in the alphabet with the only difference that this number is inconsistent and depends on the key phrase
 
 This module is based on Caesar's encryptor.
