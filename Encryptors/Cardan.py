@@ -72,7 +72,9 @@ class Cardan:
             temp = []
             for j in range(grille.shape[1]):
                 temp.append(text[int(grille[i][j])])
+                print(text[int(grille[i][j])], end='\t')
             explained_grille.append(temp)
+            print()
         return explained_grille
 
 

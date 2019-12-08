@@ -4,7 +4,8 @@
 # Dictionary of alphabets. Using in Caesar and Vigenere ciphers
 ALPHABET = {
         'rus': 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя',
-        'eng': 'abcdefghijklmnopqrstuvwxyz'
+        'eng': 'abcdefghijklmnopqrstuvwxyz',
+        'rus_': 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя_',
     }
 # Square
 SQUARE = {'а': 'a1', 'б': 'b1', 'в': 'c1', 'г': 'd1', 'д': 'e1', 'е': 'f1',
